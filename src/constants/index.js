@@ -49,18 +49,12 @@ const services = [
     title: 'Frontend Developer',
     icon: frontend,
   },
-  {
-    title: 'Backend Developer',
-    icon: backend,
-  },
+
   {
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+
 ];
 
 const technologies = [
@@ -76,10 +70,7 @@ const technologies = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
+
   {
     name: 'React JS',
     icon: reactjs,
@@ -93,22 +84,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
     name: 'git',
     icon: git,
   },
@@ -117,39 +92,39 @@ const technologies = [
     icon: figma,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'nodejs',
+    icon: nodejs,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Started Learning Programming',
+    company_name: 'IT Center',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'feb 2021 - sen 2022',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Online Web Development Training',
+    company_name: 'online ',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'feb 2023 - june  2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Offline Web Development Training',
+    company_name: 'Develop Center',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'May 2024 - jule 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Frontend Development Student',
+    company_name: "Najot Talim",
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: '2025 - Present',
   },
 ];
 

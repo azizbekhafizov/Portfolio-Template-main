@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu, logo } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -29,6 +29,7 @@ const Navbar = () => {
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
 <h1 className='text-black font-serif font-bold text-[20px]'>Azizbek</h1>
+
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
