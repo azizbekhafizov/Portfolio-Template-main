@@ -125,7 +125,7 @@ const Contact = () => {
             whitespace-nowrap sm:w-[130px] sm:h-[50px] 
             w-[100px] h-[45px] rounded-[10px] bg-night 
             hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out"
+            transition duration-500 ease-linear"
             onMouseOver={() => {
               document
                 .querySelector('.contact-btn')
